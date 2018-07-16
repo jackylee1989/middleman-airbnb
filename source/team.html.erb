@@ -1,13 +1,12 @@
-
 ---
 title: Le Wagon - Middleman - Team
 ---
 
 <div id="team">
   <ul class="list-inline text-center">
-    <% ["zhangxiange", "smithavt14r", "AliceChen1", "jackylee1989"].each do |gh_username| %>
+    <% ["zhangxiange", "jackylee1989"].each do |gh_username| %>
       <li>
-        <%= image_tag "https://kitt.lewagon.com/camps/159/#{gh_username}", class: "img-circle" %>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
         <h3><%= gh_username.capitalize %></h3>
       </li>
     <% end %>
